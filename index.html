@@ -6,7 +6,7 @@
   </head>
   <body>
     <script type="module">
-      import init, { greet } from "./pkg/rust_lib_from_node.js";
+      import init, { greet } from "./pkg/rust_wasm_lib.js";
       init().then(() => {
         greet("WebAssembly");
       });
