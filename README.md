@@ -1,9 +1,15 @@
-# rust-wasm-lib
+# Rust Wasm Lib
+
+### Without Bundler
 
 For run directly on browser, without a bundler like Webpack for node:
-compile on root folder with: wasm-pack build --target web
-call wasm lib directly from index.html, in this case index.html in root directory
+- compile on root folder with: 
+```bash
+wasm-pack build --target web
+````
+- call wasm lib directly from index.html, in this case index.html in root directory:
 
+```html
 <!doctype html>
 <html lang="en-US">
   <head>
@@ -19,8 +25,17 @@ call wasm lib directly from index.html, in this case index.html in root director
     </script>
   </body>
 </html>
+```
+- Create a local server:
+```bash
+python3 -m http.server
+```
+
+### With Bundler (Node)
 
 For run with a bundler like Webpack for node:
-compile on root folder with: wasm-pack build
-create a project folder for node, in this case www
-create node project 
+- compile on root folder with: 
+```bash
+wasm-pack build
+````
+
