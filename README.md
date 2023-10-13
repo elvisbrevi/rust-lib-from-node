@@ -80,7 +80,7 @@ console.log(fibonacciJS(num));
 console.timeEnd("Fibonacci JavaScript");
 ```
 
--- Run Node script:
+- Run Node script:
 ```bash
 node index.js
 ```
