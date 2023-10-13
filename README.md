@@ -50,8 +50,8 @@ wasm-pack build
 
 - Create Node:
 ```bash
-mkdir www
-cd www
+mkdir node_example
+cd node_example
 npm init -y
 npm install ../pkg
 touch index.js
